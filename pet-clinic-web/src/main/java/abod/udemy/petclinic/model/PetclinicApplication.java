@@ -1,4 +1,4 @@
-package abod.udemy.petclinic;
+package abod.udemy.petclinic.model;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
