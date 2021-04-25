@@ -4,7 +4,7 @@
 
     <groupId>abod.udemy</groupId>
     <artifactId>pet-clinic</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.2</version>
     <name>pet-clinic</name>
     <description>course on udemy</description>
     <packaging>pom</packaging>
@@ -46,12 +46,16 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>
                     <goals>install</goals>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
+                    <checkModificationExcludes>
+                        <checkModificationExclude>pom.xml</checkModificationExclude>
+                    </checkModificationExcludes>
                 </configuration>
             </plugin>
         </plugins>
     </build>
 <scm>
     <developerConnection>scm:git:git@github.com:Ab0o0oD/PetClinic.git</developerConnection>
-  <tag>HEAD</tag>
+  <tag>pet-clinic-0.0.2</tag>
   </scm>
 </project>
